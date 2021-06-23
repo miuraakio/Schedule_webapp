@@ -10,6 +10,7 @@ public class TutorialApplication {
 		SpringApplication.run(TutorialApplication.class, args);
 
 		//githubテスト
+		//github反映テスト2
 	}
 
 }
