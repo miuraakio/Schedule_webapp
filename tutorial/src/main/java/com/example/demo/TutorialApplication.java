@@ -9,12 +9,14 @@ import org.springframework.jdbc.core.JdbcTemplate;
 @SpringBootApplication
 public class TutorialApplication implements CommandLineRunner {
 
+
     public static void main(String[] args) {
         SpringApplication.run(TutorialApplication.class, args);
     }
 
     @Autowired
     JdbcTemplate jdbcTemplate;
+
 
     @Override
     public void run(String... strings) throws Exception {
