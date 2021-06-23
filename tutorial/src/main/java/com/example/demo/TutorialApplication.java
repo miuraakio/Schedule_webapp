@@ -11,6 +11,7 @@ public class TutorialApplication {
 
 		//githubテスト
 		//github反映テスト2
+		//テスト吉川
 	}
 
 }
