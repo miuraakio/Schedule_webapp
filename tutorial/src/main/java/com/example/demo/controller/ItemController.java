@@ -71,6 +71,6 @@ public class ItemController {
 	  @DeleteMapping("{id}")
 	  public String delete(@PathVariable Long id) {
 	    itemService.delete(id);
-	    return "redirect:/items"; 
+	    return "redirect:/items";
 	  }
 }
